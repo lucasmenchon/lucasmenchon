@@ -1,12 +1,3 @@
-
-
-https://img.shields.io/badge/-Outlook-white?style=flat-square&logo=microsoftoutlook&logoColor=blue
-
-[![Outlook Badge](https://img.shields.io/badge/-Outlook-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:it.lucas@outlook.com)
-
-https://img.shields.io/badge/-Outlook-blue?style=flat-square&logo=microsoftoutlook&logoColor=white
-
-
 ## Olá, eu sou o Lucas Menchon👋! Gosto de trabalhar com tecnologia!
 <hr>
 

@@ -17,7 +17,7 @@
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg">
-  <img align="right"  height="150" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/82517341?v=4">
+  <img align="right"  height="150" style="border-radius:50px;" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/perfil%20animed.png">
 </div>
 
 ## Contato

@@ -1,16 +1,21 @@
 ## Olá, eu sou o Lucas Menchon👋! Gosto de trabalhar com tecnologia!
 
-<div align="center">
 
+
+<div align="center">
+<a href="#">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=7&theme=dark"/>
-  
+  </a>
 </div>
+
+
 
 ## Habilidades
 
-<a href="#">
+
 <div style="display: inline_block">
+<a href="#">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
@@ -19,6 +24,7 @@
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg">
   <img align="right"  height="150" style="border-radius:50px;" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/perfil%20animed.png">
+  </a>
 </div>
 
 
@@ -33,7 +39,11 @@
 
 </div>
 
+
+
 ## Visitas 
+
+<a href="#">
 
 ![Visitor Count](https://profile-counter.glitch.me/lucasmenchon/count.svg)
 

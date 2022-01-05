@@ -9,7 +9,7 @@
 
 ## Habilidades
 
-<a href="https://www.github.com/lucasmenchon">
+<a href="#">
 <div style="display: inline_block">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
@@ -20,7 +20,7 @@
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg">
   <img align="right"  height="150" style="border-radius:50px;" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/perfil%20animed.png">
 </div>
-</a>
+
 
 ## Contato
 
@@ -37,3 +37,4 @@
 
 ![Visitor Count](https://profile-counter.glitch.me/lucasmenchon/count.svg)
 
+</a>

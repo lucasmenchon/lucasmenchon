@@ -32,10 +32,10 @@
 
 <div>
 
-<a href="mailto:it.lucas@outlook.com" target="blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/outlook-original.svg"></a>
-<a href="https://www.linkedin.com/in/lucasmenchon/" target="blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
-<a href="https://wa.link/qzdch8" target="blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/whatsapp-original.svg"></a>
-<a href="https://lucasmenchon.github.io/" target="blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/gist/christophermanning/4460135/raw/7278f8125f4508e096396b024304daf238e38b97/octocat.svg"></a>
+<a href="mailto:it.lucas@outlook.com" target="_blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/outlook-original.svg"></a>
+<a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
+<a href="https://wa.link/qzdch8" target="_blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/whatsapp-original.svg"></a>
+<a href="https://lucasmenchon.github.io/" target="_blank"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/gist/christophermanning/4460135/raw/7278f8125f4508e096396b024304daf238e38b97/octocat.svg"></a>
 
 
 <!--

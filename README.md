@@ -1,4 +1,4 @@
-## Olá, eu sou o Lucas Menchon👋! Gosto de trabalhar com tecnologia!
+## Olá, eu sou o Lucas Menchon👋 e gosto de trabalhar com tecnologia!
 
 
 

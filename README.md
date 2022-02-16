@@ -2,7 +2,7 @@
 <img align="center" alt="benccalcyxzfi-msqlserver"  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
 - 👋 Olá, eu sou Lucas Menchon </br>
-- 👀 Eu sou estudante de programação.  </br>
+- 👀 Sou estudante de programação.  </br>
 
 <div align="center">
 

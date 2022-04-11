@@ -35,9 +35,9 @@
 
 <div>
 
-<a href="mailto:it.lucas@outlook.com" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/outlook-original.svg"></a>
+<a href="mailto:it.lucas@outlook.com" ><img align="center"   height="30" width="40" src="https://edent.github.io/SuperTinyIcons/images/svg/email.svg"></a>
 <a href="https://www.linkedin.com/in/lucasmenchon/" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
-<a href="https://wa.link/qzdch8" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/lucasmenchon.github.io/main/assets/images/whatsapp-original.svg"></a>
+<a href="https://wa.link/qzdch8" ><img align="center"   height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"></a>
 <a href="https://lucasmenchon.github.io/" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/gist/christophermanning/4460135/raw/7278f8125f4508e096396b024304daf238e38b97/octocat.svg"></a>
 
 </div>

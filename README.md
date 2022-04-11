@@ -27,7 +27,7 @@
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg">
-  <img align="right"  height="150" style="border-radius:50px;" src="">
+  <!--<img align="right"  height="150" style="border-radius:50px;" src="">-->
   </a>
 </div>
 

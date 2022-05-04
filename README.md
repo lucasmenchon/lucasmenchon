@@ -19,27 +19,26 @@
 ## Habilidades
 
 <div style="display: inline_block">
-<a href="#">
+<a href="#" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain-wordmark.svg">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg">
   <!--<img align="right"  height="150" style="border-radius:50px;" src="">-->
-  </a>
+</a>
 </div>
 
 ## Contato
 
-<div>
-
-<a href="mailto:it.lucas@outlook.com" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/outlook-original.svg"></a>
-<a href="https://www.linkedin.com/in/lucasmenchon/" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
-<a href="https://wa.link/qzdch8" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/whatsapp-original.svg"></a>
-<!--<a href="https://lucasmenchon.github.io/" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/gist/christophermanning/4460135/raw/7278f8125f4508e096396b024304daf238e38b97/octocat.svg"></a>-->
-
+<div style="display: inline_block">
+<a href="mailto:it.lucas@outlook.com" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/outlook-original.svg"></a>
+<a href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none;" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
+<a href="https://wa.link/qzdch8" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/whatsapp-original.svg"></a>
 </div>
 
 

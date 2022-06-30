@@ -39,6 +39,6 @@
 <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
 <a href="https://wa.link/qzdch8" style="text-decoration:none;">
 <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg"></a>
-</div>
+
 
 

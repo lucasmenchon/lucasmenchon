@@ -33,9 +33,8 @@
 ## Contato
 
 <div style="display: inline_block">
-<a href="mailto:it.lucas@outlook.com" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/outlook-original.svg"></a>
-<a href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none;" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
-<a href="https://wa.link/qzdch8" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/aspnet-site/d2a590b5f2b4c0d05190e3e5f6e1a2c1e4359613/wwwroot/images/whatsapp-original.svg"></a>
+<a href="mailto:it.lucas@outlook.com" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/outlook-original.svg" style="text-decoration:none;" ><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"></a>
+<a href="https://wa.link/qzdch8" style="text-decoration:none;"><img align="center"   height="30" width="40" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg"></a>
 </div>
 
 

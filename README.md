@@ -1,5 +1,5 @@
 
-<img align="center" alt="benccalcyxzfi-msqlserver"  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
+<img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
 - 👋 Olá, eu sou Lucas Menchon</br>
 - 👀 Sou estudante de programação.</br>

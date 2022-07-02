@@ -1,15 +1,15 @@
 
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
-- 👋 Olá, eu sou Lucas Menchon</br>
-- 👀 Sou estudante de programação.</br>
+- 👋 Olá, eu sou o Lucas Menchon</br>
+- 👀 Sou estudante de programação, atualmente focado em .NET, C# e ASP.NET.</br>
 
-<div align="center">
+<div>
 
 <a href="#">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=4&theme=dark"/>
-
+</a>
 </div>
 
 ## Habilidades

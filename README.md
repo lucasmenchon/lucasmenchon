@@ -30,10 +30,10 @@
 ## Contato
 
 <div style="display: inline_block;">
-<a href="mailto:lucasmenchon.ti@gmail.com" style="text-decoration:none; margin-right: 5px;">
-<img align="center" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="text-decoration:none; margin-right: 5px;"></a>
+<a href="mailto:lucasmenchon.ti@gmail.com" style="text-decoration:none; margin-right: 10px;">
+<img align="center" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="text-decoration:none; margin-right: 10px;"></a>
 <a href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none;" >
-<img align="center" height="30" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" style="text-decoration:none; margin-right: 5px;"></a>
+<img align="center" height="30" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" style="text-decoration:none; margin-right: 10px;"></a>
 <a href="https://wa.link/qzdch8" style="text-decoration:none;">
 <img align="center" height="32" width="35" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg"></a>
 </div>

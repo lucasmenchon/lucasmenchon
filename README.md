@@ -1,8 +1,8 @@
 
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
-- 👋 Olá, eu sou o Lucas Menchon</br>
-- 👀 Sou estudante de programação, atualmente focado em .NET, C# e ASP.NET.</br>
+- 👋 Hi I'm Lucas</br>
+- 👀 I'm a programming student, currently working with C#, ASP .NET, Vue.js, Html and BootStrap.</br>
 
 <div>
 
@@ -17,7 +17,10 @@
 <div style="display: inline_block">
 <a href="#" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" style="text-decoration:none;">
+  <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg" style="text-decoration:none;">
+  <img align="center"  height="70" width="60" src="https://i.imgur.com/aJ5cbL4.png" style="text-decoration:none;">
+  <img align="center"  height="40" width="40" src="https://i.imgur.com/FJFGvaK.png" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain-wordmark.svg" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain-wordmark.svg" style="text-decoration:none;">
   <img align="center"  height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain-wordmark.svg" style="text-decoration:none;">

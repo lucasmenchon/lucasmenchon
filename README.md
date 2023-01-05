@@ -2,13 +2,13 @@
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
 - 👋 Hi I'm Lucas</br>
-- 👀 I'm a programming student, currently working with C#, ASP .NET, Vue.js, Html and BootStrap.</br>
+- 👀 I'm a programming student, currently working with C#, ASP.NET, Vue.js, Html and BootStrap.</br>
 
 <div>
 
 <a href="#">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=4&theme=dark"/>
+
 </a>
 </div>
 

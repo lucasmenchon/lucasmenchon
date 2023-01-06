@@ -12,7 +12,7 @@
 </a>
 </div>
 
-## Habilidades
+## Skills
 
 <div style="display: inline_block">
 <a href="#" style="text-decoration:none;">
@@ -30,7 +30,7 @@
 </a>
 </div>
 
-## Contato
+## Contact
 
 <div style="display: inline_block;">
 <a href="mailto:contato@luccas.dev" style="text-decoration:none; margin-right: 10px;">

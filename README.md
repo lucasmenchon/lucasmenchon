@@ -1,7 +1,7 @@
 
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
-- 👋 Hi I'm Lucas</br>
+- 👋 Hi. I'm Lucas</br>
 - 👀 I'm a programming student, currently working with C#, ASP.NET, Vue.js, Html and BootStrap.</br>
 
 <div>

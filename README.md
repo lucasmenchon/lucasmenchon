@@ -1,6 +1,8 @@
 
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
+##
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Hi%2C+i'm+Lucas.;I'm+a+programming+student;.NET+Developer;currently+working+with;C%23%2C+ASP.NET%2C+Vue.js%2C+Html%2C+BootStrap)](https://git.io/typing-svg)
 
 ## Skills
@@ -24,10 +26,10 @@
 ## Contact
 
 <div style="display: inline_block;">
-<a href="mailto:contato@luccas.dev" style="text-decoration:none; margin-right: 100px;">
-<img align="center" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="text-decoration:none; margin-right: 10px;"></a>
+<a href="mailto:contato@luccas.dev" style="text-decoration:none;">
+<img align="center" height="30" width="35" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="text-decoration:none;"></a>
 <a href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none;" >
-<img align="center" height="30" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" style="text-decoration:none; margin-right: 10px;"></a>
+<img align="center" height="30" width="35" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" style="text-decoration:none;"></a>
 <a href="https://wa.link/qzdch8" style="text-decoration:none;">
 <img align="center" height="32" width="35" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg"></a>
 </div>

@@ -1,8 +1,7 @@
 
 <img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
 
-- 👋 Hi. I'm Lucas</br>
-- 👀 I'm a programming student, currently working with C#, ASP.NET, Vue.js, Html and BootStrap.</br>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Hi%2C+i'm+Lucas.;I'm+a+programming+student;.NET+Developer;currently+working+with;C%23%2C+ASP.NET%2C+Vue.js%2C+Html%2C+BootStrap)](https://git.io/typing-svg)
 
 <div>
 

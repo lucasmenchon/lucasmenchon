@@ -3,14 +3,6 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=435&lines=Hi%2C+i'm+Lucas.;I'm+a+programming+student;.NET+Developer;currently+working+with;C%23%2C+ASP.NET%2C+Vue.js%2C+Html%2C+BootStrap)](https://git.io/typing-svg)
 
-<div>
-
-<a href="#">
-
-
-</a>
-</div>
-
 ## Skills
 
 <div style="display: inline_block">

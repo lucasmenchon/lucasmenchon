@@ -2,7 +2,7 @@
 
 ##
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=480&lines=Hi%2C+i'm+Lucas.;I'm+a+programming+student;.NET+Developer;currently+working+with;.NET+%E2%80%A2+C%23+%E2%80%A2+JavaScript+%E2%80%A2+ASP.NET+%E2%80%A2+Vue.js+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=500&lines=Hi%2C+i'm+Lucas.;I'm+a+programming+student;.NET+Developer;currently+working+with;.NET+%E2%80%A2+C%23+%E2%80%A2+JavaScript+%E2%80%A2+ASP.NET+%E2%80%A2+Vue.js+)](https://git.io/typing-svg)
 
 ## Skills
 

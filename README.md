@@ -7,23 +7,25 @@
 ## Skills
 
 <div style="display: flex; align-items: center;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=dotnet" alt=".NET" style="text-decoration:none;margin-right: 5px;">
-    <img align="center" height="80" width="80" src="https://i.imgur.com/aJ5cbL4.png" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=cs" alt="C#" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=angular" alt="Angular" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=vue" alt="Vue.js" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=html" alt="HTML" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=css" alt="CSS" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=git" alt="Git" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=linux" alt="Git" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=docker" alt="Git" style="text-decoration:none;">
-    <img align="center" height="50" width="50" src="https://skillicons.dev/icons?i=rabbitmq" alt="Git" style="text-decoration:none;">
-    <img align="center" height="auto" width="50" src="https://i.imgur.com/90enXg1.png" style="text-decoration:none;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=dotnet" alt=".NET" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="70" width="70" src="https://i.imgur.com/aJ5cbL4.png" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=cs" alt="C#" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="text-decoration:none;margin-right: 5px;">
+    <!-- Adicione a propriedade margin-right: 5px; para cada imagem acima -->
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=angular" alt="Angular" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=vue" alt="Vue.js" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=html" alt="HTML" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=css" alt="CSS" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=git" alt="Git" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=linux" alt="Git" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=docker" alt="Git" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=rabbitmq" alt="Git" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="auto" width="40" src="https://i.imgur.com/90enXg1.png" style="text-decoration:none;">
 </div>
+
 
 
 ## Contact

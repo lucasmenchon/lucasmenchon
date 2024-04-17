@@ -29,14 +29,14 @@
 ## Contact
 
 <div style="display: flex; align-items: center;">
-    <a style="text-decoration:none;" href="mailto:contato@lucas.tf">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="text-decoration:none;margin-right: 15px;">
+    <a href="mailto:contato@lucas.tf" style="text-decoration:none;">
+        <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="text-decoration:none;margin-right: 15px;">
     </a>    
-    <a style="text-decoration:none;" href="https://www.linkedin.com/in/lucasmenchon/">
-    <img align="center" height="35" width="35" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="text-decoration:none;margin-right: 15px;">
+    <a href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none;">
+        <img align="center" height="35" width="35" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="text-decoration:none;margin-right: 15px;">
     </a>
-    <a style="text-decoration:none;" href="https://wa.link/qzdch8">
-    <img align="center" height="auto" width="35" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg" style="text-decoration:none;margin-right: 15px;">
+    <a href="https://wa.link/qzdch8" style="text-decoration:none;">
+        <img align="center" height="auto" width="35" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg" style="text-decoration:none;margin-right: 15px;">
     </a>
 </div>
 

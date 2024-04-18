@@ -1,43 +1,42 @@
-<img align="center" alt=""  src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square">
-
-##
+<div style="font-family: 'Roboto', sans-serif; line-height: 1.6; text-align: center;">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&width=500&lines=Hi%2C+i'm+Lucas.;I'm+a+enthusiastic;.NET+Developer;currently+working+with;ASP.NET+%E2%80%A2+C%23+%E2%80%A2+TypeScript+%E2%80%A2+%E2%80%A2+Angular)](https://git.io/typing-svg)
 
-## Skills
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square" alt="lucasmenchon" />
+</p>
 
-<div style="display: flex; align-items: center;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=dotnet" alt=".NET" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://i.imgur.com/Cc54Csc.png" style="text-decoration:none;margin-right: 5px; margin-top: 5px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=cs" alt="C#" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=angular" alt="Angular" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=vue" alt="Vue.js" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=html" alt="HTML" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=css" alt="CSS" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=git" alt="Git" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=linux" alt="Git" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=docker" alt="Git" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=rabbitmq" alt="Git" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <img align="center" height="auto" width="40" src="https://i.imgur.com/90enXg1.png" style="text-decoration:none; margin-top: 5px;">
-</div>
 
-## Contact
+<h2 style="color: #ccc;">Skills</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://i.imgur.com/Cc54Csc.png" height="40" width="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=angular" alt="Angular" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=css" alt="CSS" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+</p>
 
-<div style="display: flex; align-items: center; margin-top: 5px;">
-    <a type="button" href="mailto:contato@lucas.tf" style="text-decoration:none; margin-right: 25px;">
-        <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="text-decoration:none;">
-    </a>    
-    <a type="button" href="https://www.linkedin.com/in/lucasmenchon/" style="text-decoration:none; margin-right: 25px;">
-        <img align="center" height="35" width="35" src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="text-decoration:none;">
-    </a>
-    <a type="button" href="https://wa.link/qzdch8" style="text-decoration:none;">
-        <img align="center" height="auto" width="35" src="https://raw.githubusercontent.com/lucasmenchon/site_att/main/wwwroot/images/whatsapp-original.svg" style="text-decoration:none;">
-    </a>
-</div>
-
+<h2 style="color: #ccc;">Contact</h2>
+<p align="center">
+  <a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank">
+    <img src="https://img.shields.io/badge/Whatsapp-2AB540?style=for-the-badge&logo=whatsapp&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  </a>
+  <a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  </a>
+   <a href="mailto:contato@lucas.tf" target="_blank">
+    <img src="https://img.shields.io/badge/gmail-CE3C30?style=for-the-badge&logo=gmail&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+  </a>
+</p>
 
 </div>

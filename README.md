@@ -29,13 +29,13 @@
 <h2 style="color: #ccc;">Contact</h2>
 <p align="center">
   <a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Whatsapp-2AB540?style=for-the-badge&logo=whatsapp&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+    <img src="https://img.shields.io/badge/Whatsapp-2AB540?style=for-the-badge&logo=whatsapp&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
   </a>
   <a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+    <img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
   </a>
    <a href="mailto:contato@lucas.tf" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/gmail-CE3C30?style=for-the-badge&logo=gmail&logoColor=white" alt="LinkedIn Profile" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+    <img src="https://img.shields.io/badge/gmail-CE3C30?style=for-the-badge&logo=gmail&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
   </a>
 </p>
 

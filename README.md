@@ -12,7 +12,6 @@
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=cs" alt="C#" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
-    <!-- Adicione a propriedade margin-right: 5px; e margin-top: 5px; para cada imagem acima -->
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=angular" alt="Angular" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=vue" alt="Vue.js" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=html" alt="HTML" style="text-decoration:none;margin-right: 15px; margin-top: 15px;">

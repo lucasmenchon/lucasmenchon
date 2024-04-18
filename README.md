@@ -8,7 +8,7 @@
 
 <div style="display: flex; align-items: center;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=dotnet" alt=".NET" style="text-decoration:none;margin-right: 5px;">
-    <img align="center" height="auto" width="40" src="https://i.imgur.com/Gh8Jac5.png" style="text-decoration:none;margin-right: 5px;">
+    <img align="center" height="auto" width="40" src="https://i.imgur.com/Cc54Csc.png" style="text-decoration:none;margin-right: 5px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=cs" alt="C#" style="text-decoration:none;margin-right: 5px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" style="text-decoration:none;margin-right: 5px;">
     <img align="center" height="40" width="40" src="https://skillicons.dev/icons?i=js" alt="JavaScript" style="text-decoration:none;margin-right: 5px;">

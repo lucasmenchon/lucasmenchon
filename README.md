@@ -1,6 +1,6 @@
 <div style="font-family: 'Roboto', sans-serif; line-height: 1.6; text-align: center;">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000&width=500&lines=Hi%2C+i%27m+Lucas.;I%27m+a+enthusiastic;.NET+Developer;currently+working+with;ASP.NET+%E2%80%A2+C%23+%E2%80%A2+TypeScript+%E2%80%A2+Angular)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000&color=CCCCCC&width=500&lines=Hi%2C+i%27m+Lucas.;I%27m+a+enthusiastic;.NET+Developer;currently+working+with;ASP.NET+%E2%80%A2+C%23+%E2%80%A2+TypeScript+%E2%80%A2+Angular)](https://git.io/typing-svg)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square" alt="lucasmenchon" />

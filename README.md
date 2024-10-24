@@ -10,7 +10,7 @@
 <h2 style="color: #ccc;">Skills</h2>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://i.imgur.com/Cc54Csc.png" height="40" width="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
+ <!-- <img src="https://i.imgur.com/Cc54Csc.png" height="40" width="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />-->
   <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
   <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
   <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />

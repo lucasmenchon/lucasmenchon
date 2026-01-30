@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
 
   <!-- Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" />
+  ![Profile Views](https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7)
 
   <!-- Badges -->
   <div style="display: inline-block; margin-top: 15px;">
@@ -33,17 +33,22 @@ I am a passionate **.NET Developer** focused on building robust backend systems 
 
 ## 📊 GitHub Analytics
 
-  <!-- Streak Stats (usando github-readme-streak-stats) -->
+  <!-- Streak Stats -->
   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasmenchon&theme=dracula&hide_border=true" alt="GitHub Streak"/>
   
   <br>
   
   <!-- GitHub Stats Card -->
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400" alt="GitHub Stats"/>
   
   <br>
   
-  <!-- Contribution Graph (Visualização de Atividade) -->
+  <!-- Top Languages -->
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Languages"/>
+  
+  <br>
+  
+  <!-- Contribution Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucasmenchon&theme=dracula&hide_border=true&area=true" alt="GitHub Contributions" width="100%"/>
 
   <br>

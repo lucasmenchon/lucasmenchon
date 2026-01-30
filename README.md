@@ -35,11 +35,11 @@
     <!-- Stats Gerais -->
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Lucas's GitHub stats"/>
     
-    <!-- Linguagens mais usadas -->
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=7&theme=dracula&hide_border=true" alt="Most Used Languages"/>
+    <!-- TROPHIES (Substituindo o gráfico de linguagens que estava quebrado) -->
+    <img height="180em" src="https://github-profile-trophy.vercel.app/?username=lucasmenchon&theme=dracula&no-frame=true&margin-w=15&row=2&column=3" alt="GitHub Trophies"/>
   </div>
   
-  <!-- Substituí o gráfico de atividade (que quebra) pelo Streak Stats (sequência de commits) -->
+  <!-- GitHub Streak Stats -->
   <img width="100%" src="https://streak-stats.demolab.com/?user=lucasmenchon&theme=dracula&hide_border=true&card_width=800" alt="GitHub Streak"/>
 
   <br>
@@ -78,5 +78,5 @@
   </div>
 
   <br>
-  
+
 </div>

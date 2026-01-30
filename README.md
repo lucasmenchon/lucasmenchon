@@ -1,8 +1,5 @@
 <div align="center">
 
-  <!-- Avatar & Introduction -->
-  <img src="https://github.com/lucasmenchon.png" width="200px" style="border-radius: 50%; border: 4px solid #2c3e50; margin-bottom: 20px;" alt="Profile Avatar"/>
-
   [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
 
   <!-- Profile Views -->

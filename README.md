@@ -1,6 +1,6 @@
 <div align="center">
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
 
   <!-- Profile Views -->
   <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" />
@@ -22,38 +22,46 @@
   <br>
 
   <!-- About Section -->
-  ## 🚀 About Me
 
-  I am a passionate **.NET Developer** focused on building robust backend systems and intuitive frontend interfaces. Currently, I'm deepening my expertise in **ASP.NET Core**, **C#**, and modern **JavaScript frameworks** like Angular, React, and Vue. I love solving complex problems and learning new technologies.
+## 🚀 About Me
+
+I am a passionate **.NET Developer** focused on building robust backend systems and intuitive frontend interfaces. Currently, I'm deepening my expertise in **ASP.NET Core**, **C#**, and modern **JavaScript frameworks** like Angular, React, and Vue. I love solving complex problems and learning new technologies.
 
   <br>
 
   <!-- GitHub Stats -->
-  ## 📊 GitHub Analytics
+
+## 📊 GitHub Analytics
+
+  <!-- Streak Stats (usando github-readme-streak-stats) -->
+  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=lucasmenchon&theme=dracula&hide_border=true" alt="GitHub Streak"/>
   
-  <!-- Streak Stats (Principal - Mostra Commits, PRs e Sequência) -->
-  <img width="100%" max-width="800px" src="https://streak-stats.demolab.com/?user=lucasmenchon&theme=dracula&hide_border=true&card_width=800" alt="GitHub Streak"/>
+  <br>
+  
+  <!-- GitHub Stats Card -->
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
   
   <br>
   
   <!-- Contribution Graph (Visualização de Atividade) -->
-  <div style="background-color: #282a36; padding: 15px; border-radius: 10px; border: 1px solid #44475a; max-width: 800px; margin: 0 auto; display: flex; justify-content: center;">
-    <img src="https://ghchart.rshah.org/lucasmenchon" alt="GitHub Contributions" style="border-radius: 5px; width: 100%; max-width: 700px;"/>
-  </div>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucasmenchon&theme=dracula&hide_border=true&area=true" alt="GitHub Contributions" width="100%"/>
 
   <br>
 
   <!-- Tech Stack -->
-  ## 🛠 Tech Stack
 
-  ### Backend
+## 🛠 Tech Stack
+
+### Backend
+
   <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
     <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" title=".NET" height="40"/>
     <img src="https://skillicons.dev/icons?i=cs" alt="C#" title="C#" height="40"/>
     <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" title="RabbitMQ" height="40"/>
   </div>
 
-  ### Frontend
+### Frontend
+
   <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
     <img src="https://skillicons.dev/icons?i=angular" alt="Angular" title="Angular" height="40"/>
     <img src="https://skillicons.dev/icons?i=react" alt="React" title="React" height="40"/>
@@ -67,7 +75,8 @@
     <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" title="Tailwind" height="40"/>
   </div>
 
-  ### Tools & DevOps
+### Tools & DevOps
+
   <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
     <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" height="40"/>
     <img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" title="Visual Studio" height="40"/>

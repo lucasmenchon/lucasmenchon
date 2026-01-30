@@ -32,11 +32,15 @@
   ## 📊 GitHub Analytics
   
   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <!-- Stats Gerais -->
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Lucas's GitHub stats"/>
+    
+    <!-- Linguagens mais usadas -->
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=7&theme=dracula&hide_border=true" alt="Most Used Languages"/>
   </div>
   
-  <img width="100%" src="https://github-readme-activity-graph.cyclic.app/graph?username=lucasmenchon&theme=dracula&hide_border=true&area=true" alt="Activity Graph"/>
+  <!-- Substituí o gráfico de atividade (que quebra) pelo Streak Stats (sequência de commits) -->
+  <img width="100%" src="https://streak-stats.demolab.com/?user=lucasmenchon&theme=dracula&hide_border=true&card_width=800" alt="GitHub Streak"/>
 
   <br>
 
@@ -75,6 +79,4 @@
 
   <br>
   
-  <p align="center">Made with 💙 by <b>Lucas Menchon</b></p>
-
 </div>

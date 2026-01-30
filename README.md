@@ -3,7 +3,7 @@
   [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
 
   <!-- Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" />
 
   <!-- Badges -->
   <div style="display: inline-block; margin-top: 15px;">

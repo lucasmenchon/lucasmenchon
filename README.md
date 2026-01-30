@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Lucas+Menchon;.NET+%26+C%23+Enthusiast;Always+learning%2C+always+coding)](https://git.io/typing-svg)
 
   <!-- Profile Views -->
   ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=lucasmenchon.lucasmenchon&left_color=%23555555&right_color=%232F81F7)
@@ -38,12 +38,6 @@ I am a passionate **.NET Developer** focused on building robust backend systems 
   
   <br><br>
   
-  <!-- GitHub Stats Card + Top Languages lado a lado -->
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&theme=dracula&hide_border=true&langs_count=8" alt="Top Languages"/>
-  
-  <br><br>
-  
   <!-- Profile Summary Cards -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lucasmenchon&theme=dracula" alt="Profile Details" width="100%"/>
   
@@ -57,11 +51,6 @@ I am a passionate **.NET Developer** focused on building robust backend systems 
   
   <!-- Contribution Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lucasmenchon&theme=dracula&hide_border=true&area=true" alt="GitHub Contributions" width="100%"/>
-  
-  <br><br>
-  
-  <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=lucasmenchon&theme=dracula&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies" width="100%"/>
 
   <br>
 

@@ -1,46 +1,83 @@
-<div style="font-family: 'Roboto', sans-serif; line-height: 1.6; text-align: center;">
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&duration=3000&pause=1000&color=CCCCCC&width=500&lines=Hi%2C+i%27m+Lucas.;I%27m+a+enthusiastic;.NET+Developer;currently+working+with;ASP.NET+%E2%80%A2+C%23+%E2%80%A2+TypeScript+%E2%80%A2+Angular)](https://git.io/typing-svg)
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square" alt="lucasmenchon" />
-</p>
-
-
-<h2 style="color: #ccc;">Skills</h2>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
- <!-- <img src="https://i.imgur.com/Cc54Csc.png" height="40" width="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />-->
-  <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=typescript" alt="TypeScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=angular" alt="Angular" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=html" alt="HTML" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=css" alt="CSS" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" width="40" height="40" style="margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-</p>
-
-<h2 style="color: #ccc;">Contact</h2>
 <div align="center">
+
+  <!-- Avatar & Introduction -->
+  <img src="https://github.com/lucasmenchon.png" width="200px" style="border-radius: 50%; border: 4px solid #2c3e50; margin-bottom: 20px;" alt="Profile Avatar"/>
+
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
+
+  <!-- Profile Views -->
+  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" alt="Profile views" />
+
+  <!-- Badges -->
+  <div style="display: inline-block; margin-top: 15px;">
+    <a href="https://www.linkedin.com/in/lucasmenchon/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="mailto:contato@lucas.tf" target="_blank">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+    </a>
+    <a href="https://wa.me/SEUNUMEROAQUI" target="_blank">
+      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+    </a>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- About Section -->
+  ## 🚀 About Me
+
+  I am a passionate **.NET Developer** focused on building robust backend systems and intuitive frontend interfaces. Currently, I'm deepening my expertise in **ASP.NET Core**, **C#**, and modern **JavaScript frameworks** like Angular, React, and Vue. I love solving complex problems and learning new technologies.
+
+  <br>
+
+  <!-- GitHub Stats -->
+  ## 📊 GitHub Analytics
   
-  <a style="text-decoration: none;" href="https://www.linkedin.com/in/lucasmenchon/">
-    <img src="https://img.shields.io/badge/Whatsapp-2AB540?style=for-the-badge&logo=whatsapp&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  </a>
+  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Lucas's GitHub stats"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucasmenchon&layout=compact&langs_count=7&theme=dracula&hide_border=true" alt="Most Used Languages"/>
+  </div>
   
-  <a style="text-decoration: none;" href="https://www.linkedin.com/in/lucasmenchon/">
-    <img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  </a>
+  <img width="100%" src="https://github-readme-activity-graph.cyclic.app/graph?username=lucasmenchon&theme=dracula&hide_border=true&area=true" alt="Activity Graph"/>
+
+  <br>
+
+  <!-- Tech Stack -->
+  ## 🛠 Tech Stack
+
+  ### Backend
+  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
+    <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" title=".NET" height="40"/>
+    <img src="https://skillicons.dev/icons?i=cs" alt="C#" title="C#" height="40"/>
+    <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" title="RabbitMQ" height="40"/>
+  </div>
+
+  ### Frontend
+  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
+    <img src="https://skillicons.dev/icons?i=angular" alt="Angular" title="Angular" height="40"/>
+    <img src="https://skillicons.dev/icons?i=react" alt="React" title="React" height="40"/>
+    <img src="https://skillicons.dev/icons?i=vue" alt="Vue.js" title="Vue.js" height="40"/>
+    <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" title="TypeScript" height="40"/>
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" title="JavaScript" height="40"/>
+    <img src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5" height="40"/>
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3" height="40"/>
+    <img src="https://skillicons.dev/icons?i=sass" alt="SCSS" title="SCSS" height="40"/>
+    <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" title="Bootstrap" height="40"/>
+    <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" title="Tailwind" height="40"/>
+  </div>
+
+  ### Tools & DevOps
+  <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git" height="40"/>
+    <img src="https://skillicons.dev/icons?i=visualstudio" alt="Visual Studio" title="Visual Studio" height="40"/>
+    <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" title="VS Code" height="40"/>
+    <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" height="40"/>
+    <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" height="40"/>
+  </div>
+
+  <br>
   
-   <a style="text-decoration: none;" href="mailto:contato@lucas.tf">
-    <img src="https://img.shields.io/badge/gmail-CE3C30?style=for-the-badge&logo=gmail&logoColor=white" alt="LinkedIn Profile" style="text-decoration: none;margin: 10px; transition: transform 0.3s ease;" onmouseover="this.style.transform = 'scale(1.1)';" onmouseout="this.style.transform = 'scale(1)';" />
-  </a>
-  
-</div>
+  <p align="center">Made with 💙 by <b>Lucas Menchon</b></p>
 
 </div>

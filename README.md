@@ -3,7 +3,7 @@
   [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=22&duration=4000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Lucas+Menchon;.NET+Developer%7C+Tech+Enthusiast;Specialist+in+ASP.NET+%2B+Angular;Building+scalable+solutions)](https://git.io/typing-svg)
 
   <!-- Profile Views -->
-  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=lucasmenchon&style=flat-square&color=2F81F7" alt="profile views" />
 
   <!-- Badges -->
   <div style="display: inline-block; margin-top: 15px;">
@@ -31,14 +31,15 @@
   <!-- GitHub Stats -->
   ## 📊 GitHub Analytics
   
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: center;">
-    <div style="background-color: #282a36; padding: 15px; border-radius: 10px; border: 1px solid #44475a;">
-      <img src="https://ghchart.rshah.org/lucasmenchon" alt="GitHub Contributions" style="border-radius: 5px; max-height: 150px;"/>
-    </div>
-  </div>
+  <!-- Streak Stats (Principal - Mostra Commits, PRs e Sequência) -->
+  <img width="100%" max-width="800px" src="https://streak-stats.demolab.com/?user=lucasmenchon&theme=dracula&hide_border=true&card_width=800" alt="GitHub Streak"/>
   
-  <!-- GitHub Streak Stats -->
-  <img width="100%" src="https://streak-stats.demolab.com/?user=lucasmenchon&theme=dracula&hide_border=true&card_width=800" alt="GitHub Streak"/>
+  <br>
+  
+  <!-- Contribution Graph (Visualização de Atividade) -->
+  <div style="background-color: #282a36; padding: 15px; border-radius: 10px; border: 1px solid #44475a; max-width: 800px; margin: 0 auto; display: flex; justify-content: center;">
+    <img src="https://ghchart.rshah.org/lucasmenchon" alt="GitHub Contributions" style="border-radius: 5px; width: 100%; max-width: 700px;"/>
+  </div>
 
   <br>
 
@@ -74,7 +75,4 @@
     <img src="https://skillicons.dev/icons?i=linux" alt="Linux" title="Linux" height="40"/>
     <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker" height="40"/>
   </div>
-
-  <br>
-
 </div>

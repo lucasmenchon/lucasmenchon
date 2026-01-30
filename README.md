@@ -32,7 +32,6 @@
   ## 📊 GitHub Analytics
   
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: center;">
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lucasmenchon&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Lucas's GitHub stats"/>
     <div style="background-color: #282a36; padding: 15px; border-radius: 10px; border: 1px solid #44475a;">
       <img src="https://ghchart.rshah.org/lucasmenchon" alt="GitHub Contributions" style="border-radius: 5px; max-height: 150px;"/>
     </div>

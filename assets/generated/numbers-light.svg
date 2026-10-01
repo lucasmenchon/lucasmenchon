@@ -24,11 +24,11 @@
   <text x="400" y="158" class="sans" font-size="36" font-weight="800" fill="#0e7490">50</text>
   <text x="400" y="184" class="sans" font-size="15.5" fill="#59636e">followers</text></g>
   <g class="fade" style="animation-delay:0.39s">
-  <text x="40" y="262" class="sans" font-size="36" font-weight="800" fill="#bf3989">165</text>
-  <text x="40" y="288" class="sans" font-size="15.5" fill="#59636e">active days</text></g>
+  <text x="40" y="262" class="sans" font-size="36" font-weight="800" fill="#bf3989">61</text>
+  <text x="40" y="288" class="sans" font-size="15.5" fill="#59636e">commits (12 mo)</text></g>
   <g class="fade" style="animation-delay:0.47s">
-  <text x="220" y="262" class="sans" font-size="36" font-weight="800" fill="#1a7f37">40</text>
-  <text x="220" y="288" class="sans" font-size="15.5" fill="#59636e">following</text></g>
+  <text x="220" y="262" class="sans" font-size="36" font-weight="800" fill="#1a7f37">12</text>
+  <text x="220" y="288" class="sans" font-size="15.5" fill="#59636e">pull requests</text></g>
   <g class="fade" style="animation-delay:0.55s">
   <text x="400" y="262" class="sans" font-size="36" font-weight="800" fill="#9a6700">5y+</text>
   <text x="400" y="288" class="sans" font-size="15.5" fill="#59636e">on GitHub</text></g>

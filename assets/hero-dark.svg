@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Menchon — Full Stack .NET Developer</title>
+  <desc id="desc">Lucas Menchon, Full Stack .NET Developer from São Paulo, Brazil. A terminal boots his profile like an ASP.NET Core app.</desc>
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.55" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#30363d" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0.9"/>
+    </linearGradient>
+    <radialGradient id="orbA"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#2563eb" stop-opacity="0.35"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset="1" stop-color="#fff" stop-opacity="0.05"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="440" fill="url(#fade)"/></mask>
+    <clipPath id="term"><rect x="631" y="101" width="528" height="278" rx="12"/></clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="438" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 14.5px; }
+    .line { opacity: 0; animation: in .45s ease-out forwards; }
+    .chip { opacity: 0; animation: in .6s ease-out forwards; }
+    .rise { opacity: 0; animation: rise .8s cubic-bezier(.2,.8,.2,1) forwards; }
+    .typer { animation: type 1.6s steps(33) .3s forwards; }
+    .cursor { opacity: 0; animation: blink 1.1s step-end 4.51s infinite; }
+    .orbA { animation: driftA 14s ease-in-out infinite alternate; }
+    .orbB { animation: driftB 18s ease-in-out infinite alternate; }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    @keyframes type { to { transform: translateX(295.8px); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes driftA { to { transform: translate(90px, 40px); } }
+    @keyframes driftB { to { transform: translate(-80px, -30px); } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+    
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
+  }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" fill="#0d1117"/>
+    <rect width="1200" height="440" fill="url(#grid)" mask="url(#gridMask)"/>
+    <circle class="orbA" cx="220" cy="80" r="320" fill="url(#orbA)"/>
+    <circle class="orbB" cx="1040" cy="420" r="340" fill="url(#orbB)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="438" rx="22" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <!-- identity -->
+  <g class="rise">
+    <text x="60" y="104" class="mono" font-size="15" fill="#8b949e"><tspan fill="#a78bfa">public sealed class</tspan> Developer</text>
+  </g>
+  <g class="rise" style="animation-delay:.1s">
+    <text x="56" y="182" class="sans" font-size="66" font-weight="800" letter-spacing="-2" fill="url(#name)">Lucas Menchon</text>
+  </g>
+  <g class="rise" style="animation-delay:.2s">
+    <text x="60" y="226" class="sans" font-size="23" font-weight="600" fill="#e6edf3">Full Stack .NET Developer</text>
+    <text x="60" y="264" class="sans" font-size="16.5" fill="#8b949e">Building fast, clean and reliable software —</text>
+    <text x="60" y="288" class="sans" font-size="16.5" fill="#8b949e">from the database all the way to the pixel.</text>
+  </g>
+  
+    <g class="chip" style="animation-delay:0.50s">
+      <rect x="60" y="318" width="174.9" height="34" rx="17" fill="#0f141b" stroke="#30363d"/>
+      <text x="76" y="340" font-size="13" fill="#a78bfa">◉</text>
+      <text x="92" y="340" class="sans" font-size="13.5" fill="#e6edf3">São Paulo, Brazil</text>
+    </g>
+    <g class="chip" style="animation-delay:0.62s">
+      <rect x="242.9" y="318" width="167.2" height="34" rx="17" fill="#0f141b" stroke="#30363d"/>
+      <text x="258.9" y="340" font-size="13" fill="#a78bfa">◆</text>
+      <text x="274.9" y="340" class="sans" font-size="13.5" fill="#e6edf3">Building at Olik</text>
+    </g>
+    <g class="chip" style="animation-delay:0.74s">
+      <rect x="418.1" y="318" width="190.3" height="34" rx="17" fill="#0f141b" stroke="#30363d"/>
+      <text x="434.1" y="340" font-size="13" fill="#a78bfa">✦</text>
+      <text x="450.1" y="340" class="sans" font-size="13.5" fill="#e6edf3">Open to collaborate</text>
+    </g>
+
+  <!-- terminal -->
+  <g class="rise" style="animation-delay:.15s">
+    <rect x="630" y="60" width="530" height="320" rx="14" fill="#0f141b" stroke="#30363d"/>
+    <path d="M630 100H1160" stroke="#30363d"/>
+    <circle cx="652" cy="80" r="6" fill="#ff5f57"/>
+    <circle cx="672" cy="80" r="6" fill="#febc2e"/>
+    <circle cx="692" cy="80" r="6" fill="#28c840"/>
+    <text x="895" y="85" text-anchor="middle" class="mono" font-size="12.5" fill="#8b949e">~/lucasmenchon — dotnet</text>
+    <circle class="dot" cx="1134" cy="80" r="4" fill="#3fb950"/>
+  </g>
+  <g clip-path="url(#term)">
+    <text x="654" y="138" class="mono" fill="#3fb950">❯</text>
+    <text x="676" y="138" class="mono" fill="#e6edf3">dotnet run --project LucasMenchon</text>
+    <rect class="typer" x="674" y="120" width="295.8" height="26" fill="#0f141b"/>
+    <text x="654" y="163" class="mono line" style="animation-delay:1.95s"><tspan fill="#8b949e">  Building...</tspan></text>
+    <text x="654" y="188" class="mono line" style="animation-delay:2.27s"><tspan fill="#3fb950" font-weight="700">info</tspan><tspan fill="#8b949e">: Microsoft.Hosting.Lifetime[14]</tspan></text>
+    <text x="654" y="213" class="mono line" style="animation-delay:2.59s"><tspan fill="#e6edf3">      Now listening on: </tspan><tspan fill="#a78bfa">https://lucas.ee</tspan></text>
+    <text x="654" y="238" class="mono line" style="animation-delay:2.91s"><tspan fill="#3fb950" font-weight="700">info</tspan><tspan fill="#8b949e">: Lucas.Menchon.Profile[0]</tspan></text>
+    <text x="654" y="263" class="mono line" style="animation-delay:3.23s"><tspan fill="#e6edf3">      Role: </tspan><tspan fill="#a78bfa">Full Stack .NET Developer</tspan></text>
+    <text x="654" y="288" class="mono line" style="animation-delay:3.55s"><tspan fill="#e6edf3">      Stack: </tspan><tspan fill="#a78bfa">C# · ASP.NET Core · Angular · React · Vue</tspan></text>
+    <text x="654" y="313" class="mono line" style="animation-delay:3.87s"><tspan fill="#3fb950" font-weight="700">info</tspan><tspan fill="#8b949e">: Microsoft.Hosting.Lifetime[0]</tspan></text>
+    <text x="654" y="338" class="mono line" style="animation-delay:4.19s"><tspan fill="#e6edf3">      Application started. Ready to build together.</tspan></text>
+  </g>
+    <rect class="cursor" x="654" y="347" width="9" height="19" fill="#a78bfa"/>
+</svg>

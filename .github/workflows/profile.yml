@@ -1,0 +1,42 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: '17 6 * * *' # daily, 03:17 in São Paulo
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/profile.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Render SVGs
+        run: |
+          node scripts/build-static.mjs
+          node scripts/build-dynamic.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets
+          git diff --staged --quiet && echo 'No changes.' && exit 0
+          git commit -m 'chore: refresh profile stats [skip ci]'
+          git push

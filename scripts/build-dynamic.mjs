@@ -3,7 +3,7 @@
 // (falls back to the public contributions page), just with fewer numbers.
 // Run: node scripts/build-dynamic.mjs
 import { mkdir, writeFile } from 'node:fs/promises';
-import { themes, fonts, esc, fmt, langColor, reducedMotion } from './theme.mjs';
+import { themes, fonts, esc, fmt, langColor, reducedMotion, motionCss, comet, shine, countUp } from './theme.mjs';
 
 const USER = process.env.GH_USER || 'lucasmenchon';
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -12,25 +12,24 @@ const OUT = new URL('../assets/generated/', import.meta.url);
 // Repos shown as cards, in order. Descriptions live here so they can be richer than the repo blurb.
 const FEATURED = [
   {
-    repo: 'rinha-de-backend-2026-c',
-    title: 'rinha-de-backend-2026',
-    desc: 'Fraud detection in pure C for Rinha de Backend 2026: TCP edge, Unix-socket workers and AVX2 vector search.',
-    tags: ['C', 'AVX2', 'KNN', 'Docker'],
+    repo: 'fundamentals-cqrs',
+    desc: 'Layered ASP.NET Core API (Domain, Application, Infra, CrossCutting) exploring CQRS fundamentals.',
+    tags: ['C#', 'CQRS', 'Layers', 'Docker'],
   },
   {
-    repo: 'vueti-select',
-    desc: 'A more complete multi-select component for Vue.js, published with a live demo on GitHub Pages.',
-    tags: ['Vue', 'Component', 'UI'],
-  },
-  {
-    repo: 'contacts-manage',
-    desc: 'Contact manager with admin and user roles, login, registration and session-based authentication.',
-    tags: ['C#', 'ASP.NET', 'Auth'],
+    repo: 'clean-minimal-api',
+    desc: 'Minimal API with FastEndpoints: validated contracts, value objects, mappers and repositories.',
+    tags: ['C#', 'FastEndpoints', 'Minimal API'],
   },
   {
     repo: 'mycontacts-api',
-    desc: 'REST API exploring JWT authentication, login flows and authorization in ASP.NET Core.',
-    tags: ['C#', 'JWT', 'REST'],
+    desc: 'REST API with JWT authentication, password reset by email and EF Core migrations, built on ASP.NET Core.',
+    tags: ['C#', 'JWT', 'EF Core', 'REST'],
+  },
+  {
+    repo: 'contacts-manage',
+    desc: 'ASP.NET MVC contact manager with admin and user roles, login, registration and session-based authentication.',
+    tags: ['C#', 'MVC', 'Auth', 'EF Core'],
   },
 ];
 
@@ -129,22 +128,25 @@ function wrap(text, max) {
   return lines;
 }
 
-const frame = (t, W, H, body, extraStyle = '', label = '') => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
+const frame = (t, W, H, body, extraStyle = '', label = '', m = {}) => `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">
   <style>
     .sans { font-family: ${fonts.sans}; }
     .mono { font-family: ${fonts.mono}; }
     .fade { opacity: 0; animation: fade .6s ease-out forwards; }
     @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     ${extraStyle}
+    ${motionCss}
     ${reducedMotion}
   </style>
   <rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="18" fill="${t.card}" stroke="${t.border}" stroke-width="1.5"/>
+  ${comet(t, { w: W - 2, h: H - 2, dur: m.cometDur ?? 10, delay: m.cometDelay ?? 0 })}
 ${body}
+  ${shine(t, { id: 'card', w: W, h: H, dur: m.shineDur ?? 8, delay: m.shineDelay ?? 1.5 })}
 </svg>
 `;
 
-const kpi = (t, x, y, value, label, color) => `
-  <text x="${x}" y="${y}" class="sans" font-size="36" font-weight="800" fill="${color}">${esc(value)}</text>
+const kpi = (t, x, y, value, label, color, delay = 0) => `
+  ${countUp(value, { x, y, delay: delay + 0.15, cls: 'sans', attrs: `font-size="36" font-weight="800" fill="${color}"` })}
   <text x="${x}" y="${y + 26}" class="sans" font-size="15.5" fill="${t.muted}">${esc(label)}</text>`;
 
 // ---------------------------------------------------------------- skyline
@@ -196,9 +198,9 @@ function skyline(t, cal, s) {
       const top = `<polygon points="${pt(up(A))} ${pt(up(B))} ${pt(up(C))} ${pt(up(D))}" fill="${color}"/>`;
       const right = `<polygon points="${pt(up(B))} ${pt(up(C))} ${pt(C)} ${pt(B)}" fill="${shade(color, 0.78)}"/>`;
       const front = `<polygon points="${pt(up(D))} ${pt(up(C))} ${pt(C)} ${pt(D)}" fill="${shade(color, 0.62)}"/>`;
-      const delay = (0.3 + c.w * 0.018).toFixed(2);
+      const delay = (0.3 + c.w * 0.022 + c.dow * 0.03).toFixed(2);
       const tip = c.count ? `<title>${c.count} contribution${c.count > 1 ? 's' : ''} on ${c.date}</title>` : '';
-      return `<g class="fade" style="animation-delay:${delay}s">${tip}${right}${front}${top}</g>`;
+      return `<g class="rise" style="animation-delay:${delay}s">${tip}${right}${front}${top}</g>`;
     })
     .join('\n  ');
 
@@ -224,10 +226,10 @@ function skyline(t, cal, s) {
   const body = `
   <text x="44" y="62" class="sans" font-size="25" font-weight="700" fill="${t.text}">Contribution skyline</text>
   <text x="44" y="90" class="mono" font-size="14" fill="${t.muted}">// last 12 months · rebuilt daily by GitHub Actions</text>
-  <g class="fade" style="animation-delay:.1s">${kpi(t, 560, 66, fmt(total), 'contributions', t.accent)}</g>
-  <g class="fade" style="animation-delay:.2s">${kpi(t, 735, 66, `${s.current}d`, 'current streak', t.accent2)}</g>
-  <g class="fade" style="animation-delay:.3s">${kpi(t, 900, 66, `${s.longest}d`, 'longest streak', t.accent3)}</g>
-  <g class="fade" style="animation-delay:.4s">${kpi(t, 1060, 66, fmt(best.count), `best · ${bestLabel}`, t.pink)}</g>
+  <g class="fade" style="animation-delay:.1s">${kpi(t, 560, 66, fmt(total), 'contributions', t.accent, 0.1)}</g>
+  <g class="fade" style="animation-delay:.2s">${kpi(t, 735, 66, `${s.current}d`, 'current streak', t.accent2, 0.2)}</g>
+  <g class="fade" style="animation-delay:.3s">${kpi(t, 900, 66, `${s.longest}d`, 'longest streak', t.accent3, 0.3)}</g>
+  <g class="fade" style="animation-delay:.4s">${kpi(t, 1060, 66, fmt(best.count), `best · ${bestLabel}`, t.pink, 0.4)}</g>
   <path d="M44 126H${W - 44}" stroke="${t.border}" stroke-dasharray="3 6"/>
   ${towers}
   ${months.join('\n  ')}
@@ -235,7 +237,9 @@ function skyline(t, cal, s) {
   ${legend}
   <text x="1120" y="${H - 29}" class="mono" font-size="12.5" fill="${t.muted}">more</text>`;
 
-  return frame(t, W, H, body, '', `${USER}'s contribution skyline: ${total} contributions in the last year`);
+  const style = `.rise { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); animation: rise .9s cubic-bezier(.34,1.4,.64,1) forwards; }
+    @keyframes rise { to { transform: scaleY(1); } }`;
+  return frame(t, W, H, body, style, `${USER}'s contribution skyline: ${total} contributions in the last year`, { cometDur: 16, shineDur: 9, shineDelay: 2.5 });
 }
 
 // ---------------------------------------------------------------- languages
@@ -279,13 +283,16 @@ function languages(t, langs) {
   const body = `
   <text x="40" y="58" class="sans" font-size="23" font-weight="700" fill="${t.text}">Languages</text>
   <text x="40" y="82" class="mono" font-size="13.5" fill="${t.muted}">// by bytes across original repos</text>
+  <defs><linearGradient id="glint" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
   <clipPath id="bar"><rect x="${barX}" y="104" width="${barW}" height="14" rx="7"/></clipPath>
-  <g clip-path="url(#bar)"><rect x="${barX}" y="104" width="${barW}" height="14" fill="${t.levels[0]}"/>${segs}</g>
+  <g clip-path="url(#bar)"><rect x="${barX}" y="104" width="${barW}" height="14" fill="${t.levels[0]}"/>${segs}<rect class="glint" x="${barX - 90}" y="104" width="90" height="14" fill="url(#glint)"/></g>
   ${legend}`;
 
   const style = `.grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow .7s cubic-bezier(.2,.8,.2,1) forwards; }
-    @keyframes grow { to { transform: scaleX(1); } }`;
-  return frame(t, W, H, body, style, `Most used languages: ${top.map((l) => l.name).join(', ')}`);
+    @keyframes grow { to { transform: scaleX(1); } }
+    .glint { animation: glint 4s ease-in-out 1.4s infinite; }
+    @keyframes glint { 0% { transform: translateX(0); } 45%, 100% { transform: translateX(${barW + 180}px); } }`;
+  return frame(t, W, H, body, style, `Most used languages: ${top.map((l) => l.name).join(', ')}`, { cometDelay: 3, shineDelay: 2 });
 }
 
 // ---------------------------------------------------------------- numbers
@@ -296,38 +303,46 @@ function numbers(t, n) {
     const col = i % 3;
     const row = Math.floor(i / 3);
     const colors = [t.accent, t.accent2, t.accent3, t.pink, t.green, t.yellow];
-    return `<g class="fade" style="animation-delay:${(0.15 + i * 0.08).toFixed(2)}s">${kpi(t, 40 + col * 180, 158 + row * 104, value, label, colors[i])}</g>`;
+    return `<g class="fade" style="animation-delay:${(0.15 + i * 0.08).toFixed(2)}s">${kpi(t, 40 + col * 180, 158 + row * 104, value, label, colors[i], 0.15 + i * 0.08)}</g>`;
   });
   const body = `
   <text x="40" y="58" class="sans" font-size="23" font-weight="700" fill="${t.text}">GitHub in numbers</text>
   <text x="40" y="82" class="mono" font-size="13.5" fill="${t.muted}">// live from the GitHub API</text>
   ${items.join('\n  ')}`;
-  return frame(t, W, H, body, '', 'GitHub statistics');
+  return frame(t, W, H, body, '', 'GitHub statistics', { cometDelay: 6, shineDelay: 2.6 });
 }
 
 // ---------------------------------------------------------------- project card
-function project(t, p, repo) {
+const forkIcon =
+  'M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z';
+
+function project(t, p, repo, index) {
   const W = 590;
   const H = 236;
-  const lines = wrap(p.desc, 54).slice(0, 2);
+  const all = wrap(p.desc, 54);
+  const lines = all.length > 2 ? [all[0], all[1].replace(/[ ,.;:]*$/, '…')] : all;
   const lang = repo.language || p.tags[0];
   let tx = 40;
   const tags = p.tags
-    .map((tag) => {
+    .map((tag, i) => {
       const w = tag.length * 8.6 + 24;
-      const out = `<rect x="${tx}" y="140" width="${w}" height="28" rx="14" fill="${t.cardAlt}" stroke="${t.border}"/>
-    <text x="${tx + w / 2}" y="159" text-anchor="middle" class="mono" font-size="13.5" fill="${t.accent}">${esc(tag)}</text>`;
+      const out = `<g class="pop" style="animation-delay:${(0.35 + i * 0.08).toFixed(2)}s"><rect x="${tx}" y="140" width="${w}" height="28" rx="14" fill="${t.cardAlt}" stroke="${t.border}"/>
+    <text x="${tx + w / 2}" y="159" text-anchor="middle" class="mono" font-size="13.5" fill="${t.accent}">${esc(tag)}</text></g>`;
       tx += w + 8;
       return out;
     })
     .join('\n    ');
 
-  const meta = [`<circle cx="47" cy="203" r="7" fill="${langColor(lang)}"/>
+  const meta = [`<circle class="ping" cx="47" cy="203" r="7" fill="none" stroke="${langColor(lang)}" stroke-width="1.5"/>
+    <circle cx="47" cy="203" r="7" fill="${langColor(lang)}"/>
     <text x="62" y="209" class="sans" font-size="16" fill="${t.muted}">${esc(lang)}</text>`];
   if (repo.stargazers_count > 0) {
     meta.push(`<text x="${62 + lang.length * 9 + 26}" y="209" class="sans" font-size="16" fill="${t.muted}">★ ${repo.stargazers_count}</text>`);
   }
-  if (repo.homepage) {
+  if (repo.fork) {
+    meta.push(`<path transform="translate(${W - 158} 195) scale(1)" d="${forkIcon}" fill="${t.muted}"/>
+    <text x="${W - 40}" y="209" text-anchor="end" class="mono" font-size="14" fill="${t.muted}">forked study</text>`);
+  } else if (repo.homepage) {
     meta.push(`<text x="${W - 40}" y="209" text-anchor="end" class="sans" font-size="16" font-weight="600" fill="${t.accent2}">live demo ↗</text>`);
   }
 
@@ -342,13 +357,13 @@ function project(t, p, repo) {
   <g class="fade" style="animation-delay:.1s">
     ${lines.map((l, i) => `<text x="40" y="${90 + i * 26}" class="sans" font-size="17.5" fill="${t.text}">${esc(l)}</text>`).join('\n    ')}
   </g>
-  <g class="fade" style="animation-delay:.2s">
-    ${tags}
-  </g>
+  ${tags}
   <g class="fade" style="animation-delay:.3s">
     ${meta.join('\n    ')}
   </g>`;
-  return frame(t, W, H, body, '', `${p.repo}: ${p.desc}`);
+  const style = `.ping { transform-box: fill-box; transform-origin: center; animation: ping 2.4s cubic-bezier(0,0,.2,1) infinite; }
+    @keyframes ping { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(2.6); opacity: 0; } }`;
+  return frame(t, W, H, body, style, `${p.repo}: ${p.desc}`, { cometDelay: index * 2.5, shineDelay: 1.2 + index * 0.9 });
 }
 
 // ---------------------------------------------------------------- main
@@ -393,13 +408,13 @@ for (const [mode, t] of Object.entries(themes)) {
   await writeFile(new URL(`skyline-${mode}.svg`, OUT), skyline(t, cal, s));
   await writeFile(new URL(`languages-${mode}.svg`, OUT), languages(t, langs));
   await writeFile(new URL(`numbers-${mode}.svg`, OUT), numbers(t, nums));
-  for (const p of FEATURED) {
+  for (const [i, p] of FEATURED.entries()) {
     const repo = byName[p.repo];
     if (!repo) {
       console.warn(`featured repo not found: ${p.repo}`);
       continue;
     }
-    await writeFile(new URL(`repo-${p.repo}-${mode}.svg`, OUT), project(t, p, repo));
+    await writeFile(new URL(`repo-${p.repo}-${mode}.svg`, OUT), project(t, p, repo, i));
   }
 }
 console.log(`generated: ${cal.days.length} days, ${langs.length} languages, ${own.length} repos (token: ${TOKEN ? 'yes' : 'no'})`);

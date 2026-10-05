@@ -17,7 +17,10 @@
 
 <br>
 
-## `> whoami`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-whoami-dark.svg">
+  <img alt="> whoami — about me" src="assets/section-whoami-light.svg" width="100%">
+</picture>
 
 I'm a **Full Stack .NET Developer** from São Paulo who enjoys the whole journey of a feature: modelling the domain, designing the API, squeezing performance out of the hot path and polishing the interface people actually touch. Most days that means **C# and ASP.NET Core** on the backend and **Angular, React or Vue** on the front — and, when the problem calls for it, dropping down to **C** to count microseconds.
 
@@ -31,7 +34,7 @@ var me = new Developer
     Backend   = ["C#", "ASP.NET Core", "RabbitMQ", "C"],
     Frontend  = ["Angular", "React", "Vue", "TypeScript"],
     Practices = ["Clean Architecture", "CQRS", "JWT auth", "Docker"],
-    RightNow  = "Squeezing microseconds out of vector search for Rinha de Backend 2026",
+    Studying  = ["Software Architecture", "Distributed Systems", "Performance"],
     Motto     = "Make it work, make it right, make it fast."
 };
 
@@ -40,57 +43,46 @@ await me.BuildAsync(yourNextIdea);
 
 <br>
 
-## `> stack --list`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-stack-dark.svg">
+  <img alt="> stack --list — tools I use every day" src="assets/section-stack-light.svg" width="100%">
+</picture>
 
-<p align="center">
-  <sub><b>BACKEND</b></sub><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dotnet%2Ccs%2Cc%2Crabbitmq&theme=dark">
-    <img alt=".NET, C#, C, RabbitMQ" src="https://skillicons.dev/icons?i=dotnet,cs,c,rabbitmq&theme=light">
-  </picture>
-</p>
-<p align="center">
-  <sub><b>FRONTEND</b></sub><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=angular%2Creact%2Cvue%2Cts%2Cjs%2Chtml%2Ccss%2Csass%2Cbootstrap%2Ctailwind&theme=dark">
-    <img alt="Angular, React, Vue, TypeScript, JavaScript, HTML, CSS, Sass, Bootstrap, Tailwind" src="https://skillicons.dev/icons?i=angular,react,vue,ts,js,html,css,sass,bootstrap,tailwind&theme=light">
-  </picture>
-</p>
-<p align="center">
-  <sub><b>TOOLING &amp; DEVOPS</b></sub><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git%2Cgithub%2Cgithubactions%2Cdocker%2Clinux%2Cvisualstudio%2Cvscode&theme=dark">
-    <img alt="Git, GitHub, GitHub Actions, Docker, Linux, Visual Studio, VS Code" src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,visualstudio,vscode&theme=light">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Backend: .NET, C#, C, RabbitMQ · Frontend: Angular, React, Vue, TypeScript, JavaScript, HTML, CSS, Sass, Bootstrap, Tailwind · Tooling: Git, GitHub, GitHub Actions, Docker, Linux, Visual Studio, VS Code" src="assets/stack-light.svg" width="100%">
+</picture>
 
 <br>
 
-## `> git log --featured`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-projects-dark.svg">
+  <img alt="> git log --featured — selected C# projects" src="assets/section-projects-light.svg" width="100%">
+</picture>
 
 <p align="center">
-  <a href="https://github.com/lucasmenchon/rinha-de-backend-2026-c">
+  <a href="https://github.com/lucasmenchon/fundamentals-cqrs">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-rinha-de-backend-2026-c-dark.svg">
-      <img alt="rinha-de-backend-2026 — fraud detection in pure C" src="assets/generated/repo-rinha-de-backend-2026-c-light.svg" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-fundamentals-cqrs-dark.svg">
+      <img alt="fundamentals-cqrs — layered ASP.NET Core API exploring CQRS" src="assets/generated/repo-fundamentals-cqrs-light.svg" width="49%">
     </picture>
   </a>
-  <a href="https://lucasmenchon.github.io/vueti-select/">
+  <a href="https://github.com/lucasmenchon/clean-minimal-api">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-vueti-select-dark.svg">
-      <img alt="vueti-select — multi-select component for Vue.js" src="assets/generated/repo-vueti-select-light.svg" width="49%">
-    </picture>
-  </a>
-  <a href="https://github.com/lucasmenchon/contacts-manage">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-contacts-manage-dark.svg">
-      <img alt="contacts-manage — contact manager with roles and auth" src="assets/generated/repo-contacts-manage-light.svg" width="49%">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-clean-minimal-api-dark.svg">
+      <img alt="clean-minimal-api — clean Minimal API with FastEndpoints" src="assets/generated/repo-clean-minimal-api-light.svg" width="49%">
     </picture>
   </a>
   <a href="https://github.com/lucasmenchon/mycontacts-api">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-mycontacts-api-dark.svg">
-      <img alt="mycontacts-api — JWT authentication API in ASP.NET Core" src="assets/generated/repo-mycontacts-api-light.svg" width="49%">
+      <img alt="mycontacts-api — REST API with JWT authentication" src="assets/generated/repo-mycontacts-api-light.svg" width="49%">
+    </picture>
+  </a>
+  <a href="https://github.com/lucasmenchon/contacts-manage">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/generated/repo-contacts-manage-dark.svg">
+      <img alt="contacts-manage — ASP.NET MVC contact manager with roles and auth" src="assets/generated/repo-contacts-manage-light.svg" width="49%">
     </picture>
   </a>
 </p>
@@ -99,7 +91,10 @@ await me.BuildAsync(yourNextIdea);
 
 <br>
 
-## `> dotnet stats`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/section-stats-dark.svg">
+  <img alt="> dotnet stats — live from the GitHub API" src="assets/section-stats-light.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/skyline-dark.svg">

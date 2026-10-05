@@ -9,7 +9,9 @@
   <style>
     .w { animation: wave 6s ease-in-out infinite alternate; }
     .w2 { animation: wave 8s ease-in-out infinite alternate-reverse; }
+    .msg { opacity: 0; animation: in 1s ease-out .4s forwards; }
     @keyframes wave { to { transform: translateX(-120px); } }
+    @keyframes in { from { opacity: 0; letter-spacing: 4px; } to { opacity: 1; letter-spacing: 0; } }
     
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; }
@@ -17,5 +19,5 @@
   </style>
   <path class="w" d="M0 60 Q 75 30 150 60 T 300 60 T 450 60 T 600 60 T 750 60 T 900 60 T 1050 60 T 1200 60 T 1350 60" fill="none" stroke="url(#g)" stroke-width="2"/>
   <path class="w2" d="M0 66 Q 100 96 200 66 T 400 66 T 600 66 T 800 66 T 1000 66 T 1200 66 T 1400 66" fill="none" stroke="url(#g)" stroke-width="1.2" opacity=".55"/>
-  <text x="600" y="112" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#8b949e">// Thanks for stopping by — let's build something great.</text>
+  <text class="msg" x="600" y="112" text-anchor="middle" font-family="'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#8b949e">// Thanks for stopping by — let's build something great.</text>
 </svg>

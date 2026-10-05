@@ -18,7 +18,7 @@
   <text x="560" y="66" class="sans" font-size="36" font-weight="800" fill="#a78bfa">1,169</text>
   <text x="560" y="92" class="sans" font-size="15.5" fill="#8b949e">contributions</text></g>
   <g class="fade" style="animation-delay:.2s">
-  <text x="735" y="66" class="sans" font-size="36" font-weight="800" fill="#58a6ff">17d</text>
+  <text x="735" y="66" class="sans" font-size="36" font-weight="800" fill="#58a6ff">0d</text>
   <text x="735" y="92" class="sans" font-size="15.5" fill="#8b949e">current streak</text></g>
   <g class="fade" style="animation-delay:.3s">
   <text x="900" y="66" class="sans" font-size="36" font-weight="800" fill="#22d3ee">17d</text>
@@ -367,6 +367,7 @@
   <g class="fade" style="animation-delay:1.13s"><title>8 contributions on 2026-08-27</title><polygon points="939.6,403.0 930.8,408.3 930.8,466.6 939.6,461.3" fill="rgb(46,33,83)"/><polygon points="917.2,405.6 930.8,408.3 930.8,466.6 917.2,463.9" fill="rgb(37,26,66)"/><polygon points="926.0,400.3 939.6,403.0 930.8,408.3 917.2,405.6" fill="#3b2a6b"/></g>
   <g class="fade" style="animation-delay:1.16s"><title>17 contributions on 2026-09-09</title><polygon points="984.6,378.8 975.8,384.1 975.8,466.8 984.6,461.5" fill="rgb(108,72,192)"/><polygon points="962.2,381.4 975.8,384.1 975.8,466.8 962.2,464.1" fill="rgb(86,57,153)"/><polygon points="971.0,376.1 984.6,378.8 975.8,384.1 962.2,381.4" fill="#8b5cf6"/></g>
   <g class="fade" style="animation-delay:1.20s"><title>3 contributions on 2026-09-22</title><polygon points="1029.6,424.1 1020.8,429.4 1020.8,467.0 1029.6,461.7" fill="rgb(46,33,83)"/><polygon points="1007.2,426.6 1020.8,429.4 1020.8,467.0 1007.2,464.3" fill="rgb(37,26,66)"/><polygon points="1016.0,421.4 1029.6,424.1 1020.8,429.4 1007.2,426.6" fill="#3b2a6b"/></g>
+  <g class="fade" style="animation-delay:1.24s"><polygon points="1074.6,460.4 1065.8,465.7 1065.8,467.2 1074.6,461.9" fill="rgb(24,28,34)"/><polygon points="1052.2,463.0 1065.8,465.7 1065.8,467.2 1052.2,464.5" fill="rgb(19,22,27)"/><polygon points="1061.0,457.7 1074.6,460.4 1065.8,465.7 1052.2,463.0" fill="#1f242c"/></g>
   <g class="fade" style="animation-delay:1.07s"><polygon points="866.6,462.8 857.8,468.1 857.8,469.6 866.6,464.3" fill="rgb(24,28,34)"/><polygon points="844.2,465.4 857.8,468.1 857.8,469.6 844.2,466.9" fill="rgb(19,22,27)"/><polygon points="853.0,460.1 866.6,462.8 857.8,468.1 844.2,465.4" fill="#1f242c"/></g>
   <g class="fade" style="animation-delay:1.11s"><title>3 contributions on 2026-08-21</title><polygon points="911.6,426.9 902.8,432.2 902.8,469.8 911.6,464.5" fill="rgb(46,33,83)"/><polygon points="889.2,429.4 902.8,432.2 902.8,469.8 889.2,467.1" fill="rgb(37,26,66)"/><polygon points="898.0,424.2 911.6,426.9 902.8,432.2 889.2,429.4" fill="#3b2a6b"/></g>
   <g class="fade" style="animation-delay:1.15s"><title>33 contributions on 2026-09-03</title><polygon points="956.6,351.5 947.8,356.7 947.8,470.0 956.6,464.7" fill="rgb(153,141,197)"/><polygon points="934.2,354.0 947.8,356.7 947.8,470.0 934.2,467.3" fill="rgb(122,112,157)"/><polygon points="943.0,348.7 956.6,351.5 947.8,356.7 934.2,354.0" fill="#c4b5fd"/></g>
